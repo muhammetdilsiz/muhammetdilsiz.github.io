@@ -47,8 +47,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Yazılarım
+  - title:             Siber Güvenlik
     url:               /siberguvenlik/
+  - title:             Yapay Zeka
+    url:               /yapayzeka/
   - title:             Hakkımda
     url:               /about/
 
