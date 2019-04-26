@@ -16,4 +16,4 @@ description: >
   İyi okumalar dilerim (:
   
 # You can show the description on the page by deleting this line:
-hide_description: false
+hide_description: true
