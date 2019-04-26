@@ -1,4 +1,3 @@
-Facebook Arama Linkleri İle Zaman Tünelinde Gizlenen Paylaşımları Görme
 Facebook’ta sosyal mühendislik çalışmalarımıza hız katacak basit bir yöntemi bilmeyenler için resimli olarak kolaylaştırıp anlatmak istedim.
 
 Öncelikle yöntemi uygulayacağımız kullanıcının zaman tünelinde (ilgili kodun kolay bulunması açısından) ismine sağ tıklayıp sayfanın kaynak kodunu gösterecek (Chrome için “incele”) seçeneği seçiyoruz.
