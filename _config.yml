@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-# url:                   https://muhammetdilsiz.github.io
+ url:                   https://muhammetdilsiz.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -49,8 +49,8 @@ author:
 menu:
   - title:             Siber Güvenlik
     url:               /siberguvenlik/
-  - title:             Yapay Zeka
-    url:               /yapayzeka/
+#  - title:             Yapay Zeka
+#    url:               /yapayzeka/
   - title:             Hakkımda
     url:               /about/
 
