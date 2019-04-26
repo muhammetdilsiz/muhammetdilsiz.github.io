@@ -48,9 +48,9 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Yazılarım
-    url:               /yazilar/
+    url:               /examples/
   - title:             Hakkımda
-    url:               /about.md
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
