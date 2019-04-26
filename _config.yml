@@ -48,7 +48,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Yazılarım
-    url:               /example/
+    url:               /siberguvenlik/
   - title:             Hakkımda
     url:               /about/
 
