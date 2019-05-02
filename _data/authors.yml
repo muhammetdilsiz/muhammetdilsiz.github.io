@@ -26,10 +26,10 @@ author1:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         jekyllrb
-    github:          qwtel/hydejack
+    #twitter:         muhammetdilsiz
+    github:          muhammetdilsiz
     # download:        <url>
-    # email:           <mail@domain.tld>
+    email:           muhammetdilsiz@yandex.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -58,7 +58,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        muhammetdilsiz
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
