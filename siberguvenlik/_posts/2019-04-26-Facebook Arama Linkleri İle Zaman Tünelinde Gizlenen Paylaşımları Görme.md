@@ -22,19 +22,19 @@ Ve böylece zaman tünelinden kaldırdıkları dahil etiketlendiği ve size aç�
 
 Bunlar da kullanabileceğimiz diğer hazır linkler:
 
-Places Visited
+Places Visited :
 
 https://www.facebook.com/search/PROFILE_ID/places-visited/
 
-Recent Places Visited
+Recent Places Visited :
 
 https://www.facebook.com/search/PROFILE_ID/recent-places-visited/
 
-Places Checked-In
+Places Checked-In :
 
 https://www.facebook.com/search/PROFILE_ID/places-checked-in/
 
-Places Liked
+Places Liked :
 
 https://www.facebook.com/search/PROFILE_ID/places-liked/
 
@@ -125,7 +125,7 @@ https://www.facebook.com/search/PROFILE_ID/relatives
 
 Çoklu profil linkleri (ortak-etiketli paylaşımlar için):
 
-Friendshi
+Friendship
 
 https://www.facebook.com/friendship/PROFILE_ID_1/PROFILE_ID_2/
 
