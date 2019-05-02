@@ -10,21 +10,21 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
-pages:                 Pages
-posts:                 Posts
-about:                 About
+home:                  Anasayfa
+pages:                 Sayfalar
+posts:                 Gönderiler
+about:                 Hakkımda
 related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
+other_projects:        Diğer Projeler
+comments:              Yorumlar
 jump_to:               Jump to
 navigation:            Navigation
-social:                Social
-links:                 Links
+social:                Sosyal
+links:                 Linkler
 pagination:            Pagination
-newer:                 Newer
-older:                 Older
-back:                  Back
+newer:                 Yeniler
+older:                 Eskiler
+back:                  Geri
 permalink:             Permalink
 permalink_icon:        icon-link
 templates:             Templates (for web app)
@@ -38,8 +38,8 @@ continue_reading:      >
 
 cookies_banner:
   text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
-  okay:                Okay
+    Bu site çerez (Cookie) kullanmaktadır. [Cookies Policy](/cookies-policy/).
+  okay:                Tamam
 
 not_found:
   title:               '404: Page Not Found'
