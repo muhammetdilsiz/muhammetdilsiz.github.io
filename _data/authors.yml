@@ -70,10 +70,14 @@ author2:
   name:              <Muhammet> <Dilsiz>
   email:             <muhammetdilsiz@yandex.com>
   about:             |
-    Siber Güvenlik Bloğu
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do
+
+    Open `_data/authors.yml` to edit this text.
   picture:           https://placehold.it/128x128
-  twitter:           <muhammetdilsiz>
+  #twitter:           <muhammetdilsiz>
   github:            <muhammetdilsiz>
+  linkedin:        muhammetdilsiz
 
   # Every author can have his/her own accent color and image.
   # This will change the appearance of all pages of this author.
