@@ -34,7 +34,7 @@ loading:               Loading…
 redirecting:           Redirecting…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  <!--post_title--> -> okumaya devam et
 
 cookies_banner:
   text:                >
@@ -42,16 +42,16 @@ cookies_banner:
   okay:                Tamam
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404: Sayfa Bulunamadı'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
+    Üzgünüm, aradığınız içerik bulunamadı!
+    Anasayfaya dönmek için tıklayın <!--home_link-->
   home_link:           Head back home
 
 error:
   title:               Error
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    Üzgünüm, bir hata meydana geldi. <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
