@@ -10,5 +10,5 @@ slug: siberguvenlik
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Siber güvenlik konusundaki yazılarım bu kategoride toplanmıştır. İyi okumalar dilerim (:
+  Siber güvenlik konusundaki yazılarım bu kategoride toplanmıştır. İyi çalışmalar :)
 ---

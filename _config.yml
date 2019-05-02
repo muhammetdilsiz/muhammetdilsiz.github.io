@@ -51,7 +51,7 @@ menu:
     url:               /siberguvenlik/
 #  - title:             Yapay Zeka
 #    url:               /yapayzeka/
-  - title:             Hakkımda
+  - title:             whoami
     url:               /about/
 
 # Add links to the footer.
