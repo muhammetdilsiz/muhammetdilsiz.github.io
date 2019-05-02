@@ -9,14 +9,14 @@ title: About
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  1993 yılında Kastamonu ilinin Tosya ilçesinde doğdum.
+	1993 yılında Kastamonu ilinin Tosya ilçesinde doğdum.
   İlkokulumu ilçede, liseyi ise il merkezindeki Göl Anadolu Öğretmen Lisesi’nde tamamladım.
   Kırıkkale Üniversitesi Elektrik – Elektronik Mühendisliği’nden mezun olup vatani görevimi yapmış bulunmaktayım.
   Siber güvenlik, yazılım, elektronik gibi konularda araştırmalar yapıyorum. Bloğumda bu çerçevede öğrendiğim bilgileri düzenleyip paylaşmaya çalışacağım.
   İyi okumalar dilerim (:
 
 # You can show the description on the page by deleting this line:
-hide_description: true
+hide_description: false
 
 # TODO
 image: /assets/img/blog/hydejack-8.png
