@@ -1,14 +1,17 @@
 Merhabalar, PCMan FTP Server uygulamasının 2.0.7 sürümünde bulunan stack buffer overflow zafiyeti için exploit geliştirmeyi olabildiğince basitleştirerek anlatmaya çalışacağım.
 
+>
 Kullanacağım uygulamalar: Immunity Debugger, PCMan FTP Server 2.0.7, VMware
 
 Çalışmayı VMware uygulamasında çalıştırdığım Microsoft Windows XP Professional (Version 2002)’de yapacağım. İşletim sistemi, uygulama sürümleri vs. değiştiğinde ilgili kodların değişebileceğini unutmayın.
 
 Başlamadan önce anlatımda değineceğimiz iki register’ın ne iş yaptığını bilmekte fayda var.
 
+~~~
 ESP: Stack pointer. Stack veri yapısının son giren elemanını gösterir.
 
 EIP: Instruction pointer. CPU’nun an itibariyle code segment’i içerisindeki hangi instruction’i çalıştıracağını gösterir.
+~~~
 
 Öncelikle PCMan FTP Server uygulamasını sürükleyip Immunity Debugger üzerine bırakarak açıyoruz.
 
