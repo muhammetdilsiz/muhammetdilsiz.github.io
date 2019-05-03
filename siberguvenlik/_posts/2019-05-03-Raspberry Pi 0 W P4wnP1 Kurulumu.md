@@ -96,5 +96,7 @@ PAYLOAD=network_only.txt
 
 Kullanmak istediğiniz payload‘ın başındaki “#” işaretini kaldırıp mevcut kullanılan payload‘ın başına “#” ekliyoruz. Sonrasında sudo shutdown now komutu ile Raspberry‘mizi güvenli biçimde kapatıp bilgisayarımıza tekrardan takıyoruz. Kolay gelsin 🙂
 
-*USB Kablonuzun OTG olmasına dikkat edin.
-**Diğer Raspberry versiyonları için PoisonTap(https://samy.pl/poisontap/)‘ı deneyebilirsiniz.
+>
+*USB Kablonuzun OTG olmasına dikkat edin.{:.lead}
+>
+**Diğer Raspberry versiyonları için PoisonTap(https://samy.pl/poisontap/)‘ı deneyebilirsiniz.{:.lead}
