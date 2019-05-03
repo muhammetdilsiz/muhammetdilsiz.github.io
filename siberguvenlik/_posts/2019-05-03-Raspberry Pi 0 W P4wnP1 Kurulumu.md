@@ -58,11 +58,12 @@ Ağa bağlandıktan sonra ssh bağlantımızı gerçekleştireceğiz. “ssh pi@
 Biz network_only payload‘ı ile çalıştık. Siz burada P4wnP1 klasörüne girip sudo nano setup.cfg komutu ile dosyayı açıp en alta indiğinizde diğer payloadları görebilirsiniz.
 Merak edenler için ilgili kısmı burada paylaşıyorum.
 
->
+
 =====================
 # Payload selection
- =====================
+=====================
 
+>
 PAYLOAD=network_only.txt
 
 #PAYLOAD=wifi_covert_channel/hid_only_delivery64.txt # WiFi covert channel (HID only delivery), insert P4wnP1 to target, press NUMLOCK rapidly to infect … remove P4wnP1 and provided it with Power, lock in via WiFi and use the C2 server for the covert channel
@@ -94,7 +95,7 @@ PAYLOAD=network_only.txt
 #PAYLOAD=hid_keyboard.txt # HID keyboard demo: Waits till target installed keyboard driver and writes “Keyboard is running” to notepad
 #
 #PAYLOAD=hid_keyboard2.txt # HID keyboard demo: triggered by CAPS-, NUM- or SCROLL-LOCK interaction on target
-<
+
 Kullanmak istediğiniz payload‘ın başındaki “#” işaretini kaldırıp mevcut kullanılan payload‘ın başına “#” ekliyoruz. Sonrasında sudo shutdown now komutu ile Raspberry‘mizi güvenli biçimde kapatıp bilgisayarımıza tekrardan takıyoruz. Kolay gelsin 🙂
 
 >
