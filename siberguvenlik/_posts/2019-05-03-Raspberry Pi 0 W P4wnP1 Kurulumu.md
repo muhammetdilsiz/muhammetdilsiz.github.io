@@ -11,7 +11,7 @@ Image dosyasını sdkart‘a yazmak için dd aracını kullanabilirsiniz:
 ~~~
 sudo dd if=/image_dosyasinin_adresi/dosya_ismi.img of=/yazacaginiz_disk bs=4M && sync
 ~~~
-
+>
 Yazacağınız diskin ismini "sudo fdisk -l" komutuyla öğrenebilirsiniz.
 
 Yazma işlemi tamamlandıktan sonra “boot” isminde görünen sdcard‘a giriyoruz ve cmdline.txt dosyasının içindekileri tamamen silerek aşağıdakileri yazıp kaydediyoruz:
