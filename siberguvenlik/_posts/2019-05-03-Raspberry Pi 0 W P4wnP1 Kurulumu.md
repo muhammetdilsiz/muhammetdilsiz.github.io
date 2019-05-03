@@ -8,16 +8,21 @@ Proje linki: https://github.com/mame82/P4wnP1/
 
 Image dosyasını sdkart‘a yazmak için dd aracını kullanabilirsiniz:
 
+~~~
 sudo dd if=/image_dosyasinin_adresi/dosya_ismi.img of=/yazacaginiz_disk bs=4M && sync
+~~~
 
-Yazacağınız diskin ismini sudo fdisk -l komutuyla öğrenebilirsiniz.
+Yazacağınız diskin ismini ~~~sudo fdisk -l~~~ komutuyla öğrenebilirsiniz.
 
 Yazma işlemi tamamlandıktan sonra “boot” isminde görünen sdcard‘a giriyoruz ve cmdline.txt dosyasının içindekileri tamamen silerek aşağıdakileri yazıp kaydediyoruz:
 
+~~~
 dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2,g_ether quiet init=/usr/lib/raspi-config/init_resize.sh
+~~~
 
 Aynı dizin içerisine ssh isminde boş bir dosya açıyoruz (SSH‘ın aktif edilmesi için). Ve config.txt dosyasının sonuna “dtoverlay=dwc2” ekleyerek Raspberry‘mize Sdcard‘ı takıp güç veriyoruz. Kullanmak için ekrana sahip olanlar oradan internete bağlayabilirler. Olmayanlar için sd kartımızı çıkarmadan bu komutları düzenleyerek;
 
+~~~
 network={
 ssid=”ag_ismi_buraya”
 psk=”sifre_buraya”
@@ -26,6 +31,7 @@ key_mgmt=WPA-PSK
 pairwise=CCMP
 auth_alg=OPEN
 }
+~~~
 
 #Not(Ağınıza göre bu bilgileri kullanarak düzenleme yapabilirsiniz):
 #proto : WPA2 için RSN , WPA1 için WPA
@@ -37,10 +43,12 @@ rootfs‘deki /etc/wpa_supplicant dizini içerisinde bulunan “wpa_supplicant.c
 
 Netdiscover veya arp-scan ile IP adresini keşfedip “ssh pi@ip_adresi” şeklinde bağlantımızı gerçekleştiriyoruz. Şifremiz ise “raspberry”
 
+~~~
 sudo apt-get update
 sudo apt-get install git
 git clone https://github.com/mame82/P4wnP1.git
 cd P4wnP1 && ./install.sh
+~~~
 
 komutlarını sırasıyla çalıştırdığımızda (biraz uzun sürebilir) cihazımız hazır hale geliyor.
 
@@ -58,12 +66,11 @@ Ağa bağlandıktan sonra ssh bağlantımızı gerçekleştireceğiz. “ssh pi@
 Biz network_only payload‘ı ile çalıştık. Siz burada P4wnP1 klasörüne girip sudo nano setup.cfg komutu ile dosyayı açıp en alta indiğinizde diğer payloadları görebilirsiniz.
 Merak edenler için ilgili kısmı burada paylaşıyorum.
 
-
+~~~
 #=====================
 # Payload selection
 #=====================
 
->
 PAYLOAD=network_only.txt
 #PAYLOAD=wifi_covert_channel/hid_only_delivery64.txt # WiFi covert channel (HID only delivery), insert P4wnP1 to target, press NUMLOCK rapidly to infect … remove P4wnP1 and provided it with Power, lock in via WiFi and use the C2 server for the covert channel
 #PAYLOAD=wifi_covert_channel/hid_only_delivery32.txt # 32bit version untested
@@ -80,7 +87,7 @@ PAYLOAD=network_only.txt
 #PAYLOAD=hid_frontdoor.txt # HID covert channel demo: Triggers P4wnP1 covert channel console by pressing NUMLOCK 5 times on target (Windows)
 #PAYLOAD=hid_keyboard.txt # HID keyboard demo: Waits till target installed keyboard driver and writes “Keyboard is running” to notepad
 #PAYLOAD=hid_keyboard2.txt # HID keyboard demo: triggered by CAPS-, NUM- or SCROLL-LOCK interaction on target
-
+~~~
 Kullanmak istediğiniz payload‘ın başındaki “#” işaretini kaldırıp mevcut kullanılan payload‘ın başına “#” ekliyoruz. Sonrasında sudo shutdown now komutu ile Raspberry‘mizi güvenli biçimde kapatıp bilgisayarımıza tekrardan takıyoruz. Kolay gelsin 🙂
 
 >
