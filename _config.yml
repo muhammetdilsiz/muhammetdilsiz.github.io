@@ -124,7 +124,7 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-139508709-1
+ google_analytics:      UA-139508709-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -279,7 +279,7 @@ remote_theme: qwtel/hydejack@v8.4.0
 # google_site_verification: <verification-id>
 # -- or --
 # webmaster_verifications:
-#   google:              <LDthSL0BRV4wiFfn5NnSTlEaLgI0JGrxJdzefMbIbz4>
+   google:              <LDthSL0BRV4wiFfn5NnSTlEaLgI0JGrxJdzefMbIbz4>
 #   bing:                <verification-id>
 #   alexa:               <verification-id>
 #   yandex:              <verification-id>

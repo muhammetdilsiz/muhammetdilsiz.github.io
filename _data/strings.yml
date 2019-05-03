@@ -14,7 +14,7 @@ home:                  Anasayfa
 pages:                 Sayfalar
 posts:                 Gönderiler
 about:                 Hakkımda
-related_posts:         Related Posts
+related_posts:         İlgili Yazılar
 other_projects:        Diğer Projeler
 comments:              Yorumlar
 jump_to:               Jump to
@@ -22,8 +22,8 @@ navigation:            Navigasyon
 social:                Sosyal
 links:                 Linkler
 pagination:            Pagination
-newer:                 Yeniler
-older:                 Eskiler
+newer:                 Daha Yeni
+older:                 Daha eski
 back:                  Geri
 permalink:             Permalink
 permalink_icon:        icon-link
